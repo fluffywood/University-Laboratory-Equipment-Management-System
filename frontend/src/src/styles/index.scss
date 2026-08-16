@@ -1,0 +1,53 @@
+/* 全局样式 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+}
+
+#app {
+  height: 100vh;
+}
+
+/* Element UI 样式覆盖 */
+.el-card {
+  margin-bottom: 20px;
+}
+
+.el-table {
+  margin-top: 20px;
+}
+
+.el-pagination {
+  margin-top: 20px;
+  text-align: right;
+}
+
+/* 自定义样式 */
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+/* 响应式布局 */
+@media (max-width: 768px) {
+  .el-col {
+    margin-bottom: 20px;
+  }
+} 
